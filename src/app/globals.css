@@ -24,16 +24,12 @@ html {
 }
 
 
-/* coin css */
 
- .animation-container{
-  z-index: 99999;
-  position:relative;
-  top:900px;
-  left:800px;
- }
-
-
+.animation-container{
+  position:absolute;
+  top:900px !important;
+  left:800px !important;
+}
 
 body {
   margin: 0;
@@ -2179,7 +2175,9 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  animation: fadeOutLoader 2s ease-in-out 8s forwards; 
+}
+.preloader{
+  animation: fadeOutLoader 2s ease-in-out 10s forwards; 
 }
 
 @keyframes fadeOutLoader {
@@ -2189,11 +2187,19 @@ ul {
     pointer-events: none;
   }
 }
+
 .c-loader-icon-wrapper {
+  opacity: 0;
+  transform: scale(0.85);
+}
+
+.preloader-wrapper {
   opacity: 1; 
   transform: scale(1);
   transition: transform 0.6s ease;
 }
+
+
 .c-loader-icon {
   --loader-icon-bg-fill-1: var(--cyan-light);
   --loader-icon-symbol-fill-1: var(--cyan);
@@ -2396,11 +2402,16 @@ ul {
   width: 100%;
   pointer-events: none;
 }
+
 .c-nav-bar-logo svg,
 .c-nav-menu-logo svg,
 .c-loader-logo svg {
   width: 9.16312rem;
-  height: 1.49062rem;
+  height: 2.99062rem;
+}
+.c-nav-bar-adi-logo {
+  height: 30px !important;
+  width: 300px !important;
 }
 .c-nav-bar-lang {
   --nav-lang-width: 3.25rem;
@@ -9959,7 +9970,7 @@ a.c-map-svg-marker-infobox-text:hover {
   will-change: opacity;
 }
 .c-section--title-1 .c-title-parts-wrap {
-  margin-right: 1rem;
+  margin-right: 2rem;
   position: relative;
 }
 .c-section--title-1 .c-title-parts {
@@ -12616,7 +12627,7 @@ input:-internal-autofill-previewed {
 }
 .c-lock-scroll-2 .c-section-cards {
   display: flex;
-  justify-content: flex-end;
+ justify-content: flex-end;
 }
 @media (max-width: 799px) {
   .c-lock-scroll-2 .c-section-cards {

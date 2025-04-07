@@ -19,56 +19,25 @@ const Nav = () => {
           <div className="c-nav-bar-bg" />
           <div className="c-nav-bar-part c-nav-bar-part--left">
             <div className="c-nav-bar-logo">
-              <a href="/en/">
-                <SvgSIteLogo/>
+              <a href="">
+                <SvgSIteLogo  />
               </a>
             </div>
             <div className="c-nav-bar-lang">
-              <div className="c-nav-bar-lang-inner">
-                <div className="c-nav-bar-lang-menu">
-                  <span className="c-nav-bar-lang-active" aria-haspopup="true">
-                    EN
-                  </span>
-                  <ul className="c-nav-bar-lang-ul">
-                    <li className="c-nav-bar-lang-li">
-                      <span data-site-handle="nl" className="c-nav-bar-lang-a">
-                        NL
-                      </span>
-                    </li>
-                    <li className="c-nav-bar-lang-li">
-                      <span data-site-handle="fr" className="c-nav-bar-lang-a">
-                        FR
-                      </span>
-                    </li>
-                    <li className="c-nav-bar-lang-li">
-                      <span data-site-handle="es" className="c-nav-bar-lang-a">
-                        ES
-                      </span>
-                    </li>
-                    <li className="c-nav-bar-lang-li">
-                      <span data-site-handle="it" className="c-nav-bar-lang-a">
-                        IT
-                      </span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="c-nav-bar-lang-icon">
-                  <SvgLangIcon/>
-                </div>
-              </div>
+             {/* lang options */}
             </div>
           </div>
           <div className="c-nav-bar-part c-nav-bar-part--right">
             <button className="c-nav-bar-search">
-              <div className="c-nav-bar-search-icon">
+              {/* <div className="c-nav-bar-search-icon">
                <SvgSearchIcon/>
-              </div>
+              </div> */}
             </button>
             <div className="c-nav-bar-menu">
               <ul className="c-nav-bar-menu-ul">
                 <li className="c-nav-bar-menu-li">
                   <a
-                    href="https://sDQp0Xl9lWe3.com/en/your-needs/"
+                    href=""
                     className="c-nav-bar-menu-a"
                   >
                     <span className="c-nav-bar-menu-a-text">Your Needs</span>
@@ -77,7 +46,7 @@ const Nav = () => {
                     <ul className="c-nav-bar-menu-ul--sub">
                       <li className="c-nav-bar-menu-li--sub">
                         <a
-                          href="https://sDQp0Xl9lWe3.com/en/your-needs/recruiting/"
+                          href=""
                           className="c-nav-bar-menu-a"
                         >
                           <span className="c-nav-bar-menu-a-text">
@@ -87,7 +56,7 @@ const Nav = () => {
                       </li>
                       <li className="c-nav-bar-menu-li--sub">
                         <a
-                          href="https://sDQp0Xl9lWe3.com/en/your-needs/talent-development/"
+                          href=""
                           className="c-nav-bar-menu-a"
                         >
                           <span className="c-nav-bar-menu-a-text">
@@ -97,7 +66,7 @@ const Nav = () => {
                       </li>
                       <li className="c-nav-bar-menu-li--sub">
                         <a
-                          href="https://sDQp0Xl9lWe3.com/en/your-needs/team-management/"
+                          href=""
                           className="c-nav-bar-menu-a"
                         >
                           <span className="c-nav-bar-menu-a-text">
@@ -110,7 +79,7 @@ const Nav = () => {
                 </li>
                 <li className="c-nav-bar-menu-li">
                   <a
-                    href="https://sDQp0Xl9lWe3.com/en/our-products/"
+                    href=""
                     className="c-nav-bar-menu-a"
                   >
                     <span className="c-nav-bar-menu-a-text">Our Products</span>
@@ -118,7 +87,7 @@ const Nav = () => {
                 </li>
                 <li className="c-nav-bar-menu-li">
                   <a
-                    href="https://sDQp0Xl9lWe3.com/en/our-services/"
+                    href=""
                     className="c-nav-bar-menu-a"
                   >
                     <span className="c-nav-bar-menu-a-text">Our Services</span>
@@ -141,27 +110,16 @@ const Nav = () => {
               >
                 <SvgNavCta/>
               </span>
-              <div className="c-nav-bar-cta-a">
-                <span
+              <div className="c-nav-bar-cta-a c-button--ts-2">
+                {/* <span
                   target="_blank"
                   rel="noopener noreferrer"
                   data-obfuscated-link=""
                   data-olink="aHR0cHM6Ly90ZXN0LnBlcmZvcm1hbnNlLmNvbS8/bG9jYWxlPWVuLVVT"
-                  className="c-button c-button--ts-2"
+                  className=""
                 >
-                  <span className="c-button-bg">
-                    <span className="c-button-bg-hover" />
-                  </span>
-                  <span className="c-button-text">
-                    <span className="c-button-text-inner">
-                      <span className="c-button-text-hover">Try for Free</span>
-                      <span className="c-button-text-static">Try for Free</span>
-                    </span>
-                  </span>
-                  <span className="c-button-icon">
-                   <SvgButtonIcon/>
-                  </span>
-                </span>
+               
+                </span> */}
               </div>
             </div>
           </div>
@@ -172,8 +130,8 @@ const Nav = () => {
       <div className="c-nav-menu-bg" />
       <div className="c-nav-menu-top">
         <div className="c-nav-menu-logo">
-          <a href="/en/">
-            <SvgSIteLogo/>
+          <a href="">
+            {/* <SvgSIteLogo/> */}
           </a>
         </div>
       </div>
@@ -194,7 +152,7 @@ const Nav = () => {
                     >
                       <span className="c-nav-menu-content-a-text">
                         <span className="c-nav-menu-content-a-text-static">
-                          Your Needs
+                          Your Needs 
                         </span>
                       </span>
                     </span>
@@ -234,7 +192,7 @@ const Nav = () => {
                 <ul className="c-nav-menu-content-ul c-nav-menu-content-ul--main">
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/blog/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -246,7 +204,7 @@ const Nav = () => {
                   </li>
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/business-cases/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -258,7 +216,7 @@ const Nav = () => {
                   </li>
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/about-us/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -270,7 +228,7 @@ const Nav = () => {
                   </li>
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/science-and-innovation/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -298,7 +256,7 @@ const Nav = () => {
                   </li>
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/blog/articles/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -310,7 +268,7 @@ const Nav = () => {
                   </li>
                   <li className="c-nav-menu-content-li">
                     <a
-                      href="https://sDQp0Xl9lWe3.com/en/blog/e-books/"
+                      href=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
