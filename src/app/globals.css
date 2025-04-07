@@ -12616,7 +12616,7 @@ input:-internal-autofill-previewed {
 }
 .c-lock-scroll-2 .c-section-cards {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 @media (max-width: 799px) {
   .c-lock-scroll-2 .c-section-cards {
