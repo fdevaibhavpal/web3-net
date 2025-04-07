@@ -1,5 +1,14 @@
 "use client";
-import React from 'react'
+import Lottie from "lottie-react";
+import Footer from "./Footer";
+import BottomForm from "./BottomForm";
+import JustCurious from "./JustCurious";
+import Faq from "./Faq";
+import SoftSkills from "./SoftSkills";
+import TrustUs from "./TrustUs";
+import OurProduct from "./OurProduct";
+import Talent from "./Talent"
+import YourNeed from "./YourNeed";
 
 const Home = () => {
   return (
@@ -1040,7 +1049,7 @@ const Home = () => {
               data-scroll=""
               data-scroll-speed="0.2"
             >
-              <div className="c-hero-part c-hero-part--5">
+              {/* <div className="c-hero-part c-hero-part--5">
                 <svg
                   width={1535}
                   height={1577}
@@ -1113,7 +1122,18 @@ const Home = () => {
                     </linearGradient>
                   </defs>
                 </svg>
-              </div>
+              </div> */}
+
+<div className="c-hero-part c-hero-part--5 animation-container">
+<dotlottie-player
+  src="https://lottie.host/a0ce7b5e-6b69-479f-aa9d-0091d2fd190e/sQZl1rbTZd.lottie"
+  background="transparent"
+  speed="1"
+  style={{ width: "400px", height: "300px" }}
+  loop
+  autoplay
+></dotlottie-player>
+</div>
             </div>
           </div>
         </div>

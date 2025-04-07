@@ -22,6 +22,19 @@ html {
   font-feature-settings: normal;
   font-variation-settings: normal;
 }
+
+
+/* coin css */
+
+ .animation-container{
+  z-index: 99999;
+  position:relative;
+  top:900px;
+  left:800px;
+ }
+
+
+
 body {
   margin: 0;
   line-height: inherit;
@@ -2156,21 +2169,30 @@ ul {
   scrollbar-width: none;
 }
 .c-loader {
-  position: fixed;
+ position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   z-index: 2000;
-  pointer-events: none;
   background-color: var(--blue-mysterious);
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: fadeOutLoader 2s ease-in-out 8s forwards; 
+}
+
+@keyframes fadeOutLoader {
+  to {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
 }
 .c-loader-icon-wrapper {
-  opacity: 0;
-  transform: scale(0.85);
+  opacity: 1; 
+  transform: scale(1);
+  transition: transform 0.6s ease;
 }
 .c-loader-icon {
   --loader-icon-bg-fill-1: var(--cyan-light);
@@ -2215,8 +2237,10 @@ ul {
   }
 }
 .c-loader-icon svg rect {
-  transition: fill 0.3s linear;
+  transition: fill 5s linear;
 }
+
+
 .c-loader-logo-outer {
   position: absolute;
   bottom: 0;
@@ -18222,3 +18246,6 @@ a.plyr__control:before {
   transition: opacity 0.3s linear;
   opacity: 0.35;
 }
+
+
+

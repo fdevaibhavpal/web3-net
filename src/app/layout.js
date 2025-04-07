@@ -144,6 +144,10 @@ export default function RootLayout({ children }) {
           crossOrigin=""
           onLoad="e=new CustomEvent('vite-script-loaded', {detail:{path: 'src/app/main.js'}});document.dispatchEvent(e);"
         />
+        <Script 
+         src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"
+          />
+
         
         {children}
       </body>
