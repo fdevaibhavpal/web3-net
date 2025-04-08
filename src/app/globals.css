@@ -2346,11 +2346,12 @@ ul {
   left: 50%;
   width: 100%;
   height: 100%;
-  background-color: var(--nav-bg);
+  /* background-color: var(--nav-bg); */
+  background-color: rgb(35, 35, 41);;
   transform: translate(-50%);
   border-radius: var(--button-border-radius);
-  transition: background-color 0.3s linear;
-  max-width: 93%;
+  transition: background-color 0.4s linear;
+  max-width: 90%;
 }
 @media (min-width: 1000px) {
   .c-nav-bar-bg {
@@ -2401,6 +2402,9 @@ ul {
   position: relative;
   width: 100%;
   pointer-events: none;
+  padding:14px 0px;
+  background:rgb(35, 35, 41);
+  border-radius: var(--button-border-radius);
 }
 
 .c-nav-bar-logo svg,
