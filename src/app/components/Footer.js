@@ -387,10 +387,9 @@ c-7.6-6.9-17.6-11-28.5-11s-20.8,4.1-28.5,11C100.7,131.9,110.6,136,121.5,136z"
                 data-animate=""
                 data-animate-y={50}
                 data-animate-delay={400}
+                className='c-footer-logo'
               >
-
                 <SvgSIteLogo/>
-
               </div>
               <div
                 className="flex items-center gap-15"

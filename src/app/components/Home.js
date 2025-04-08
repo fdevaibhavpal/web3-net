@@ -5928,7 +5928,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
               <div className="c-carousel-inner c-grid">
                 <div className="col-span-8 col-start-2 md:col-span-5 md:col-start-2">
                   <h2 className="ts-3" data-animate-title="">
-                    Our <span>partner</span>
+                    Our <span>partners</span>
                   </h2>
                 </div>
               </div>
@@ -6097,7 +6097,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
             <div className="wrap wrap--max">
               <div className="flex flex-col items-center">
                 <h2 className="ts-2" data-animate-title="">
-                  When AI meets soft skills
+                When Web3 Meets Identity
                 </h2>
                 <div
                   className="ts-p"
@@ -6106,10 +6106,9 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   data-split-articles=""
                 >
                   <p>
-                    Based on the big five model, The Theory of Needs and
-                    cognitive patterns, our psychometric algorithms provide an
-                    in-depth analyse of the uniqueness of individuals at work
-                    and allow you to go beyond the CV.
+                  Rooted in Web3 principles, our protocols combine on-chain activity, identity signals,
+and behavioral patterns to power smarter, trustless systems. This enables communities to coordinate,
+verify, and collaborate—without relying on centralized control or legacy credentials.
                   </p>
                 </div>
               </div>
@@ -6390,7 +6389,11 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                           data-animate-title=""
                           data-animate-delay={100}
                         >
-                          Our philosophy centers around people-powered systems. From contributors to users, our tools and protocols enable transparent collaboration and meaningful participation in building a decentralized future.
+                          From contributors to end users, our tools and protocols
+foster transparent collaboration and active
+participation—shaping a truly
+meaningful participation in building a decentralized
+future, together.
                         </h3>
                       </div>
                     </div>

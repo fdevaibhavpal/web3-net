@@ -28,11 +28,6 @@ const Nav = () => {
             </div>
           </div>
           <div className="c-nav-bar-part c-nav-bar-part--right">
-            <button className="c-nav-bar-search">
-              {/* <div className="c-nav-bar-search-icon">
-               <SvgSearchIcon/>
-              </div> */}
-            </button>
             <div className="c-nav-bar-menu">
               <ul className="c-nav-bar-menu-ul">
                 <li className="c-nav-bar-menu-li">
@@ -42,40 +37,6 @@ const Nav = () => {
                   >
                     <span className="c-nav-bar-menu-a-text">Your Needs</span>
                   </a>
-                  <div className="c-nav-bar-menu--sub">
-                    <ul className="c-nav-bar-menu-ul--sub">
-                      <li className="c-nav-bar-menu-li--sub">
-                        <a
-                          href=""
-                          className="c-nav-bar-menu-a"
-                        >
-                          <span className="c-nav-bar-menu-a-text">
-                            Recruiting
-                          </span>
-                        </a>
-                      </li>
-                      <li className="c-nav-bar-menu-li--sub">
-                        <a
-                          href=""
-                          className="c-nav-bar-menu-a"
-                        >
-                          <span className="c-nav-bar-menu-a-text">
-                            Talent Development
-                          </span>
-                        </a>
-                      </li>
-                      <li className="c-nav-bar-menu-li--sub">
-                        <a
-                          href=""
-                          className="c-nav-bar-menu-a"
-                        >
-                          <span className="c-nav-bar-menu-a-text">
-                            Team Management
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
                 </li>
                 <li className="c-nav-bar-menu-li">
                   <a
