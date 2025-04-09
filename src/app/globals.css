@@ -7902,6 +7902,7 @@ a.c-map-svg-marker-infobox-text:hover {
 .c-cards-wrap .c-cards--2 {
   position: sticky;
   top: 0;
+  opacity: 1 !important;
 }
 .c-cards-wrap .c-cards--1:nth-child(2),
 .c-cards-wrap .c-cards--2:nth-child(2) {
@@ -9184,6 +9185,7 @@ a.c-map-svg-marker-infobox-text:hover {
 .c-section {
   background-color: var(--background-color);
   color: var(--paragraph-color);
+  opacity: 1 !important;
 }
 .c-section .ts-3 + .ts-eyebrow {
   display: inline-block;

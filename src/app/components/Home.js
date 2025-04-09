@@ -973,98 +973,24 @@ const Home = () => {
                     </svg>
                   </div>
                 </div>
-                {/* <div
+               <div
                   className="c-hero-illustration-part"
                   data-scroll=""
                   data-scroll-speed="0.2"
-                > */}
-                {/* <div className="c-hero-part c-hero-part--5">
-                <svg
-                  width={1535}
-                  height={1577}
-                  viewBox="0 0 1535 1577"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <g className="c-hero-part c-hero-part--5-container">
-                    <path
-                      d="M1279.58 779H1118C1101.43 779 1088 792.431 1088 809V970.58C1088 987.149 1101.43 1000.58 1118 1000.58H1279.58C1296.15 1000.58 1309.58 987.149 1309.58 970.58V809C1309.58 792.431 1296.15 779 1279.58 779Z"
-                      fill="url(#paint0_linear_672_1161)"
-                    />
-                    <mask
-                      className="c-hero-part c-hero-part--5-head-mask"
-                      id="mask0_672_1161"
-                      style={{ maskType: "luminance" }}
-                      maskUnits="userSpaceOnUse"
-                      x={1088}
-                      y={779}
-                      width={222}
-                      height={222}
-                    >
-                      <path
-                        d="M1279.58 779H1118C1101.43 779 1088 792.431 1088 809V970.58C1088 987.149 1101.43 1000.58 1118 1000.58H1279.58C1296.15 1000.58 1309.58 987.149 1309.58 970.58V809C1309.58 792.431 1296.15 779 1279.58 779Z"
-                        fill="white"
-                      />
-                    </mask>
-                    <path
-                      d="M1382 1003.58H1350.58C1343.95 1003.58 1338.58 1008.95 1338.58 1015.58V1047C1338.58 1053.63 1343.95 1059 1350.58 1059H1382C1388.63 1059 1394 1053.63 1394 1047V1015.58C1394 1008.95 1388.63 1003.58 1382 1003.58Z"
-                      fill="#07296F"
-                    />
-                    <g mask="url(#mask0_672_1161)">
-                      <g className="c-hero-part c-hero-part--5-head">
-                        <path
-                          d="M1281.31 1019.12C1305.32 1019.12 1324.78 999.117 1324.78 974.441C1324.78 949.764 1305.32 929.76 1281.31 929.76C1257.31 929.76 1237.85 949.764 1237.85 974.441C1237.85 999.117 1257.31 1019.12 1281.31 1019.12Z"
-                          fill="#020621"
-                        />
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M1138.25 876.569C1138.05 881.837 1136.23 887.004 1132.98 891.26C1128.93 896.731 1123.46 904.026 1120.02 908.686C1119.1 909.902 1118.7 911.422 1119 912.941C1119.21 914.461 1120.02 915.778 1121.33 916.69C1123.06 917.906 1124.98 919.324 1126.3 920.338C1127.72 921.351 1128.63 922.87 1128.83 924.593C1129.44 929.152 1130.65 938.575 1131.67 946.579C1132.68 954.583 1139.47 960.459 1147.47 960.459C1156.79 960.459 1167.23 960.459 1167.23 960.459L1176.65 1008.58L1251.93 1008.99C1251.93 1008.99 1252.34 961.776 1252.54 941.006C1252.64 934.725 1253.65 928.443 1255.58 922.465C1257.6 916.082 1260.54 906.964 1263.89 896.731C1268.85 881.331 1266.32 864.411 1257.1 851.138C1247.78 837.866 1232.88 829.659 1216.67 829.051C1148.18 826.315 1138.96 861.067 1138.25 876.569Z"
-                          fill="#25A3FF"
-                        />
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M1252.44 958.533L1148.79 1003.62L1265.71 1003.42L1252.44 958.533Z"
-                          fill="#2D62E8"
-                        />
-                        <path
-                          fillRule="evenodd"
-                          clipRule="evenodd"
-                          d="M1139.98 865.93L1177.06 857.926C1177.06 857.926 1176.96 864.309 1176.85 873.731C1176.25 917.399 1209.18 954.177 1252.64 958.533C1252.64 958.533 1262.06 933.508 1272.8 905.038C1279.69 886.599 1277.16 865.93 1266.01 849.82C1254.87 833.61 1236.43 823.985 1216.67 823.883C1209.38 823.883 1202.18 823.883 1195.4 823.883C1169.46 823.782 1146.87 841.006 1139.98 865.93Z"
-                          fill="#020621"
-                        />
-                      </g>
-                    </g>
-                  </g>
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear_672_1161"
-                      x1="1147.08"
-                      y1="934.105"
-                      x2="1709.2"
-                      y2="934.105"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#0040B4" />
-                      <stop offset={1} stopColor="#0B1841" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>  */}
+                > 
 
-                {/* <div className="c-hero-part c-hero-part--5 animation-container"> */}
-                {/* <dotlottie-player
+                <div className="c-hero-part c-hero-part--5 animation-container">
+                <dotlottie-player
                       src="https://lottie.host/a0ce7b5e-6b69-479f-aa9d-0091d2fd190e/sQZl1rbTZd.lottie"
                       background="transparent"
                       speed="1"
                       style={{ width: "400px", height: "300px" }}
                       loop
                       autoplay
-                    ></dotlottie-player> */}
+                    ></dotlottie-player>
 
-                {/* </div> */}
-                {/* </div> */}
+                </div>
+                </div>
               </div>
             </div>
             <div className="c-hero-bg c-hero-bg--mobile block md:hidden">
@@ -2219,8 +2145,7 @@ const Home = () => {
 
           <section
             className="c-section c-section--title-text-center c-section--light"
-            data-nav-section="light"
-              
+           
           >
             <div className="wrap wrap--max">
               <div className="flex flex-col items-center">
@@ -2260,7 +2185,7 @@ const Home = () => {
 
 
           <div className="c-cards-wrap">
-            <section
+             <section
               className="c-cards c-cards--1"
               data-animate-margin="-35% 0% -35% 0%"
               data-nav-section="dark"
@@ -2268,13 +2193,13 @@ const Home = () => {
               <div className="wrap wrap--max">
                 <div className="c-grid items-center">
                   <div className="col-span-10 md:col-span-7 mobile:order-2 mobile:mt-80 relative">
-                    <h2 className="ts-eyebrow ts-indicator" data-animate="">
+                    <h2 className="ts-eyebrow ts-indicator" >
                       Distributed
                     </h2>
                     <div
                       className="ts-body--xl"
                       data-animate-paragraph=""
-                      data-animate-delay={100}
+                    
                       data-split-articles=""
                     >
                       <p>
@@ -2285,9 +2210,9 @@ const Home = () => {
                       </p>
                     </div>
                     <a
-                      data-animate=""
+                    
                       data-animate-y={50}
-                      data-animate-delay={300}
+                  
                       href=""
                       className="c-button c-button--icon-hover c-button--ts-1 c-button--blue c-button--hover-cyan"
                     >
@@ -2655,7 +2580,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </section>
+            </section> 
 
 
             <section
