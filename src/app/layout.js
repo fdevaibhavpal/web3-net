@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Assess the Soft Skills of your Talents - PerformanSe",
-  description: "Assess the soft skills of your candidates and employees with our psychometric tests and services. Take time to get to know your talents better.",
+  title: "ADI Foundation",
+  description: "adi foundation",
   generator: "SEOmatic",
   referrer: "no-referrer-when-downgrade",
   robots: "all",
@@ -29,8 +29,8 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Assess the Soft Skills of your Talents - PerformanSe",
-    description: "Assess the soft skills of your candidates and employees with our psychometric tests and services. Take time to get to know your talents better.",
+    title: "ADI Foundation",
+    description: "adi foundation",
     url: "https://sDQp0Xl9lWe3.com/en/",
     siteName: "English",
     type: "website",
@@ -38,16 +38,16 @@ export const metadata = {
     alternateLocale: ["it", "es", "fr", "nl"],
     images: [
       {
-        url: "/assets/general/_1200x630_crop_center-center_82_none/Share.png",
+        // url: "/assets/general/_1200x630_crop_center-center_82_none/Share.png",
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
     creator: "@",
-    title: "Assess the Soft Skills of your Talents - PerformanSe",
-    description: "Assess the soft skills of your candidates and employees with our psychometric tests and services. Take time to get to know your talents better.",
-    images: ["https://sDQp0Xl9lWe3.com/assets/general/_1200x630_crop_center-center_82_none/GuHmfRsgqlcu.png"],
+    title: "ADI Foundation",
+    description: "adi foundation",
+    // images: ["https://sDQp0Xl9lWe3.com/assets/general/_1200x630_crop_center-center_82_none/GuHmfRsgqlcu.png"],
   },
 };
 
@@ -148,7 +148,6 @@ export default function RootLayout({ children }) {
          src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"
           />
 
-        
         {children}
       </body>
     </html>

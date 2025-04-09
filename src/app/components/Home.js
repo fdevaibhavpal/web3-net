@@ -1,5 +1,5 @@
 "use client";
-import Footer from './Footer';
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -973,12 +973,12 @@ const Home = () => {
                     </svg>
                   </div>
                 </div>
-                <div
+                {/* <div
                   className="c-hero-illustration-part"
                   data-scroll=""
                   data-scroll-speed="0.2"
-                >
-                  {/* <div className="c-hero-part c-hero-part--5">
+                > */}
+                {/* <div className="c-hero-part c-hero-part--5">
                 <svg
                   width={1535}
                   height={1577}
@@ -1051,20 +1051,20 @@ const Home = () => {
                     </linearGradient>
                   </defs>
                 </svg>
-              </div> */}
+              </div>  */}
 
-                  <div className="c-hero-part c-hero-part--5 animation-container">
-                    <dotlottie-player
+                {/* <div className="c-hero-part c-hero-part--5 animation-container"> */}
+                {/* <dotlottie-player
                       src="https://lottie.host/a0ce7b5e-6b69-479f-aa9d-0091d2fd190e/sQZl1rbTZd.lottie"
                       background="transparent"
                       speed="1"
                       style={{ width: "400px", height: "300px" }}
                       loop
                       autoplay
-                    ></dotlottie-player>
-                    
-                  </div>
-                </div>
+                    ></dotlottie-player> */}
+
+                {/* </div> */}
+                {/* </div> */}
               </div>
             </div>
             <div className="c-hero-bg c-hero-bg--mobile block md:hidden">
@@ -2214,24 +2214,24 @@ const Home = () => {
               </div>
             </div>
           </div>
+
+
+
           <section
             className="c-section c-section--title-text-center c-section--light"
-            data-animate-section=""
             data-nav-section="light"
+              
           >
             <div className="wrap wrap--max">
               <div className="flex flex-col items-center">
                 <span
                   className="ts-eyebrow ts-indicator"
-                  data-animate=""
-                  data-animate-y={50}
                 >
                   Your Needs
                 </span>
                 <h2
                   className="ts-2"
-                  data-animate-title=""
-                  data-animate-delay={100}
+              
                 >
                   Place <span> decentralization </span> at the heart of your
                   digital strategy
@@ -2240,7 +2240,7 @@ const Home = () => {
                   className="ts-p"
                   data-split-articles=""
                   data-animate-paragraph=""
-                  data-animate-delay={500}
+               
                 >
                   <p>
                     In a world where central systems are increasingly fragile
@@ -2255,10 +2255,13 @@ const Home = () => {
               </div>
             </div>
           </section>
+
+
+
+
           <div className="c-cards-wrap">
             <section
               className="c-cards c-cards--1"
-              data-animate-section=""
               data-animate-margin="-35% 0% -35% 0%"
               data-nav-section="dark"
             >
@@ -2653,6 +2656,8 @@ const Home = () => {
                 </div>
               </div>
             </section>
+
+
             <section
               className="c-cards c-cards--1"
               data-animate-section=""
@@ -3027,6 +3032,7 @@ const Home = () => {
                 </div>
               </div>
             </section>
+            
             <section
               className="c-cards c-cards--1"
               data-animate-section=""
@@ -3441,6 +3447,12 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
               </div>
             </section>
           </div>
+
+
+
+
+
+
           <section
             className="c-section c-section--light c-section--cyan-highlight c-section--title-1"
             data-animate-section=""
@@ -3473,7 +3485,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                             data-split-chars=""
                             data-split-resize="false"
                           >
-                            Distribute
+                            Elevate
                           </span>
                         </span>
                       </span>
@@ -3484,6 +3496,10 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
               </div>
             </div>
           </section>
+
+
+
+
           <section
             className="c-section c-section--light c-section--list c-section--cyan-highlight"
             data-animate-section=""
@@ -3498,19 +3514,27 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   <li>
                     <h3>01.</h3>
                     <p>
-                    Make informed decisions with robust, transparent, and verifiable blockchain systems. Understanding the strengths of your networks lays the foundation for a resilient digital future.
+                      Make informed decisions with robust, transparent, and
+                      verifiable blockchain systems. Understanding the strengths
+                      of your networks lays the foundation for a resilient
+                      digital future.
                     </p>
                   </li>
                   <li>
                     <h3>02.</h3>
                     <p>
-                    With our decentralized identity and data frameworks, transform how you onboard users, build trust, and foster equitable participation in digital ecosystems.
+                      With our decentralized identity and data frameworks,
+                      transform how you onboard users, build trust, and foster
+                      equitable participation in digital ecosystems.
                     </p>
                   </li>
                   <li>
                     <h3>03.</h3>
                     <p>
-                    Spot and support emerging innovators through our community-first governance models. Cultivate the leaders of tomorrow and scale the future of decentralized collaboration.
+                      Spot and support emerging innovators through our
+                      community-first governance models. Cultivate the leaders
+                      of tomorrow and scale the future of decentralized
+                      collaboration.
                     </p>
                   </li>
                 </ul>
@@ -3530,7 +3554,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       data-animate=""
                       data-animate-y={50}
                     >
-                      How we Do it 
+                      How we Do it
                     </h2>
                     <p
                       className="ts-2"
@@ -3544,10 +3568,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
               </div>
               <div className="c-cards-content">
                 <div className="c-cards-content-inner no-scrollbar">
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -3835,10 +3856,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -4151,10 +4169,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -4490,10 +4505,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -4844,10 +4856,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -5018,10 +5027,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -5213,10 +5219,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -5362,10 +5365,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -5625,10 +5625,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                       </p>
                     </div>
                   </a>
-                  <a
-                    href=""
-                    className="c-card-item c-card-item--5"
-                  >
+                  <a href="" className="c-card-item c-card-item--5">
                     <span className="c-card-item-bg">
                       <span className="c-card-item-bg-hover" />
                     </span>
@@ -5893,7 +5890,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                             Know about ADI foundation
                           </span>
                           <span className="c-button-text-static">
-                          Know about ADI foundation
+                            Know about ADI foundation
                           </span>
                         </span>
                       </span>
@@ -5948,16 +5945,10 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   rel="noreferrer noopener"
                 >
                   <span className="c-client-logo-static">
-                    <img
-                      src="../assets/general/Logos/BLS.png"
-                      alt="Logo BLS"
-                    />
+                    <img src="../assets/general/Logos/BLS.png" alt="Logo BLS" />
                   </span>
                   <span className="c-client-logo-hover">
-                    <img
-                      src="../assets/general/Logos/BLS.png"
-                      alt="Logo BLS"
-                    />
+                    <img src="../assets/general/Logos/BLS.png" alt="Logo BLS" />
                   </span>
                 </a>
               </div>
@@ -6097,7 +6088,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
             <div className="wrap wrap--max">
               <div className="flex flex-col items-center">
                 <h2 className="ts-2" data-animate-title="">
-                When Web3 Meets Identity
+                  When Web3 Meets Identity
                 </h2>
                 <div
                   className="ts-p"
@@ -6106,9 +6097,11 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   data-split-articles=""
                 >
                   <p>
-                  Rooted in Web3 principles, our protocols combine on-chain activity, identity signals,
-and behavioral patterns to power smarter, trustless systems. This enables communities to coordinate,
-verify, and collaborate—without relying on centralized control or legacy credentials.
+                    Rooted in Web3 principles, our protocols combine on-chain
+                    activity, identity signals, and behavioral patterns to power
+                    smarter, trustless systems. This enables communities to
+                    coordinate, verify, and collaborate—without relying on
+                    centralized control or legacy credentials.
                   </p>
                 </div>
               </div>
@@ -6356,7 +6349,7 @@ verify, and collaborate—without relying on centralized control or legacy crede
                       </div>
                       <div className="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
                         <h3 className="ts-3" data-animate-title="">
-                        A framework adaptable to every decentralized context
+                          A framework adaptable to every decentralized context
                         </h3>
                         <div
                           className="ts-p"
@@ -6365,7 +6358,12 @@ verify, and collaborate—without relying on centralized control or legacy crede
                           data-animate-delay={200}
                         >
                           <p>
-                          Our CORE model (Credibility, Openness, Resilience, Empowerment) is built on foundational principles driving the success of decentralized systems. With this model, evaluate the values and capabilities that truly shape trust, collaboration, and innovation in your network.
+                            Our CORE model (Credibility, Openness, Resilience,
+                            Empowerment) is built on foundational principles
+                            driving the success of decentralized systems. With
+                            this model, evaluate the values and capabilities
+                            that truly shape trust, collaboration, and
+                            innovation in your network.
                           </p>
                         </div>
                       </div>
@@ -6389,11 +6387,10 @@ verify, and collaborate—without relying on centralized control or legacy crede
                           data-animate-title=""
                           data-animate-delay={100}
                         >
-                          From contributors to end users, our tools and protocols
-foster transparent collaboration and active
-participation—shaping a truly
-meaningful participation in building a decentralized
-future, together.
+                          From contributors to end users, our tools and
+                          protocols foster transparent collaboration and active
+                          participation—shaping a truly meaningful participation
+                          in building a decentralized future, together.
                         </h3>
                       </div>
                     </div>
@@ -6515,7 +6512,7 @@ future, together.
                       </div>
                       <div className="c-lock-scroll-card-text col-span-10 md:col-span-6 md:col-start-8">
                         <h3 className="ts-3" data-animate-title="">
-                        When Blockchain Meets Human Potential
+                          When Blockchain Meets Human Potential
                         </h3>
                         <div
                           className="ts-p"
@@ -6524,7 +6521,11 @@ future, together.
                           data-animate-delay={200}
                         >
                           <p>
-                          Rooted in decentralized identity, behavioral insights, and trust frameworks, our systems unlock a deeper understanding of individuals—beyond credentials and titles—to power secure, inclusive digital ecosystems.
+                            Rooted in decentralized identity, behavioral
+                            insights, and trust frameworks, our systems unlock a
+                            deeper understanding of individuals—beyond
+                            credentials and titles—to power secure, inclusive
+                            digital ecosystems.
                           </p>
                         </div>
                       </div>
@@ -6547,7 +6548,8 @@ future, together.
                       data-animate-title=""
                       data-animate-delay={100}
                     >
-                      You have questions? <br/>We have answers
+                      You have questions? <br />
+                      We have answers
                     </h2>
                     <div
                       className="c-dropdown-1-illustration"
@@ -6750,7 +6752,7 @@ future, together.
                         data-accordion-trigger=""
                       >
                         <span className="c-dropdown-item-title-text">
-                        What does ADI Foundation do?
+                          What does ADI Foundation do?
                         </span>
                         <span className="c-dropdown-item-title-icon">
                           <svg
@@ -6773,7 +6775,10 @@ future, together.
                         <div className="c-dropdown-item-text">
                           <div>
                             <p>
-                            ADI Foundation builds decentralized digital infrastructure to enable trust, identity, and secure collaboration across communities and organizations.
+                              ADI Foundation builds decentralized digital
+                              infrastructure to enable trust, identity, and
+                              secure collaboration across communities and
+                              organizations.
                               <br />
                             </p>
                           </div>
@@ -6792,7 +6797,7 @@ future, together.
                         data-accordion-trigger=""
                       >
                         <span className="c-dropdown-item-title-text">
-                        Who can benefit from ADI’s solutions?
+                          Who can benefit from ADI’s solutions?
                         </span>
                         <span className="c-dropdown-item-title-icon">
                           <svg
@@ -6815,7 +6820,9 @@ future, together.
                         <div className="c-dropdown-item-text">
                           <div>
                             <p>
-                            Governments, enterprises, developers, and citizens looking to adopt blockchain technology for transparency, efficiency, and empowerment.
+                              Governments, enterprises, developers, and citizens
+                              looking to adopt blockchain technology for
+                              transparency, efficiency, and empowerment.
                             </p>
                           </div>
                           <div className="c-dropdown-item-text--sm">
@@ -6834,7 +6841,7 @@ future, together.
                         data-accordion-trigger=""
                       >
                         <span className="c-dropdown-item-title-text">
-                        Is ADI Foundation open-source?
+                          Is ADI Foundation open-source?
                         </span>
                         <span className="c-dropdown-item-title-icon">
                           <svg
@@ -6857,7 +6864,9 @@ future, together.
                         <div className="c-dropdown-item-text">
                           <div>
                             <p>
-                            Yes. ADI is committed to open-source principles, ensuring transparency, community collaboration, and long-term sustainability.
+                              Yes. ADI is committed to open-source principles,
+                              ensuring transparency, community collaboration,
+                              and long-term sustainability.
                               <br />
                             </p>
                           </div>
@@ -6878,7 +6887,7 @@ future, together.
                         data-accordion-trigger=""
                       >
                         <span className="c-dropdown-item-title-text">
-                        How does ADI ensure data privacy and security?
+                          How does ADI ensure data privacy and security?
                         </span>
                         <span className="c-dropdown-item-title-icon">
                           <svg
@@ -6901,7 +6910,9 @@ future, together.
                         <div className="c-dropdown-item-text">
                           <div>
                             <p>
-                            ADI uses cryptographically secure, self-sovereign identity and decentralized protocols to give users full control over their data.
+                              ADI uses cryptographically secure, self-sovereign
+                              identity and decentralized protocols to give users
+                              full control over their data.
                             </p>
                             <br />
                             <ol>
@@ -6926,7 +6937,7 @@ future, together.
                         data-accordion-trigger=""
                       >
                         <span className="c-dropdown-item-title-text">
-                        How can I get involved with ADI Foundation?
+                          How can I get involved with ADI Foundation?
                         </span>
                         <span className="c-dropdown-item-title-icon">
                           <svg
@@ -6949,7 +6960,9 @@ future, together.
                         <div className="c-dropdown-item-text">
                           <div>
                             <p>
-                            You can contribute to our projects, partner with us, or join our developer and community networks to co-create decentralized solutions.
+                              You can contribute to our projects, partner with
+                              us, or join our developer and community networks
+                              to co-create decentralized solutions.
                             </p>
                           </div>
                           <div className="c-dropdown-item-text--sm">
@@ -7020,10 +7033,7 @@ future, together.
                 data-animate-items=""
                 data-animate-delay={300}
               >
-                <a
-                  href=""
-                  className="c-card-item c-card-item--4"
-                >
+                <a href="" className="c-card-item c-card-item--4">
                   <picture className="c-card-item-picture -is-svg -color-blue-ice">
                     <img
                       src="../assets/general/Articles/Iso_protection-data.svg"
@@ -7038,10 +7048,14 @@ future, together.
                         <span className="ts-detail">1 minute</span>
                       </span>
                     </span>
-                    <h3 className="ts-4">Certificatione onsectetur adipiscing</h3>
+                    <h3 className="ts-4">
+                      Certificatione onsectetur adipiscing
+                    </h3>
                     <span className="ts-p">
                       <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scopri nostrum constantem studium ad tuenda data tua et tutum ambitum praestandem cum certificatione.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Scopri nostrum constantem studium ad tuenda data tua et
+                        tutum ambitum praestandem cum certificatione.
                       </p>
                     </span>
                     <span className="c-button c-button--icon-hover c-button--ts-2 c-button--blue c-button--outlined">
@@ -7076,10 +7090,7 @@ future, together.
                     </span>
                   </span>
                 </a>
-                <a
-                  href=""
-                  className="c-card-item c-card-item--4"
-                >
+                <a href="" className="c-card-item c-card-item--4">
                   <picture className="c-card-item-picture -is-svg -color-blue-sky">
                     <img
                       src="../assets/general/Ebooks_FR/illustration-ebook-predictibilite.svg"
@@ -7095,11 +7106,13 @@ future, together.
                       </span>
                     </span>
                     <h3 className="ts-4">
-                    Potentia praedictiva methodorum aestimationis
+                      Potentia praedictiva methodorum aestimationis
                     </h3>
                     <span className="ts-p">
                       <p>
-                      Explora validissimas vias aestimationis in delectu candidatorum, scientificis studiis confirmatas, in hoc duce practico et innovativo.
+                        Explora validissimas vias aestimationis in delectu
+                        candidatorum, scientificis studiis confirmatas, in hoc
+                        duce practico et innovativo.
                       </p>
                     </span>
                     <span className="c-button c-button--icon-hover c-button--ts-2 c-button--blue c-button--outlined">
@@ -7134,10 +7147,7 @@ future, together.
                     </span>
                   </span>
                 </a>
-                <a
-                  href=""
-                  className="c-card-item c-card-item--4"
-                >
+                <a href="" className="c-card-item c-card-item--4">
                   <picture className="c-card-item-picture -is-svg -color-cyan">
                     <img
                       src="../assets/general/Blog_Svg/Woman_Magnifying_Glass_Piechart.svg"
@@ -7153,11 +7163,13 @@ future, together.
                       </span>
                     </span>
                     <h3 className="ts-4">
-                    Sub-Tricenos in Managemente: Parati Ne Sunt?
+                      Sub-Tricenos in Managemente: Parati Ne Sunt?
                     </h3>
                     <span className="ts-p">
                       <p>
-                      Sub-triceni sunt duces futuri. Habentne quod opus est? Iunge nobis die webinar ad cognoscenda indicia ex exploratione conductorum.
+                        Sub-triceni sunt duces futuri. Habentne quod opus est?
+                        Iunge nobis die webinar ad cognoscenda indicia ex
+                        exploratione conductorum.
                       </p>
                     </span>
                     <span className="c-button c-button--icon-hover c-button--ts-2 c-button--blue c-button--outlined">
@@ -7470,8 +7482,8 @@ future, together.
               </div>
             </div>
           </div>
-         
-          <Footer/>
+
+          <Footer />
         </div>
         <div className="scrollbar">
           <div className="scrollbar-inner">
