@@ -234,24 +234,20 @@ c-7.6-6.9-17.6-11-28.5-11s-20.8,4.1-28.5,11C100.7,131.9,110.6,136,121.5,136z"
               >
                 <li>
                   <span
-                    data-obfuscated-link=""
-                    data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL3lvdXItbmVlZHMv"
+                    
                   >
                     Your Needs
                   </span>
                 </li>
                 <li>
                   <span
-                    data-obfuscated-link=""
-                    data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL291ci1wcm9kdWN0cy8="
+                   
                   >
-                    Our Products
+                    ADI Foundation
                   </span>
                 </li>
                 <li>
                   <span
-                    data-obfuscated-link=""
-                    data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL291ci1zZXJ2aWNlcy8="
                   >
                     Our Services
                   </span>
@@ -308,8 +304,7 @@ c-7.6-6.9-17.6-11-28.5-11s-20.8,4.1-28.5,11C100.7,131.9,110.6,136,121.5,136z"
                 <li>
                   <span
                     data-obfuscated-link=""
-                    data-olink="aHR0cHM6Ly9hcHAucGVyZm9ybWFuc2UuY29tLz9sPWVuX0VO"
-                    target="_blank"
+                    data-olink=""
                   >
                     Personal Account
                   </span>
@@ -398,23 +393,7 @@ c-7.6-6.9-17.6-11-28.5-11s-20.8,4.1-28.5,11C100.7,131.9,110.6,136,121.5,136z"
                 data-animate-delay={500}
               >
                
-                <div>
-                  {/* <p>
-                    <span
-                      data-obfuscated-link=""
-                      data-olink="bWFpbHRvOmludGVybmF0aW9uYWxAcGVyZm9ybWFuc2UuY29t"
-                    >
-                      international@ADI.com
-                    </span>
-                    <br />
-                    <span
-                      data-obfuscated-link=""
-                      data-olink="dGVsOiszMygwKTIgNDAgOTU4IDk1OA=="
-                    >
-                      +33(0)2 40 958 958
-                    </span>
-                  </p> */}
-                </div>
+               
               </div>
             </div>
             <div className="col-span-8 col-start-2 md:col-span-3 lg:col-span-3 md:col-start-6 lg:col-start-7">

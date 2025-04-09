@@ -64,7 +64,7 @@ const Nav = () => {
             <div className="c-nav-bar-cta">
               <span
                 data-obfuscated-link=""
-                data-olink="aHR0cHM6Ly9hcHAucGVyZm9ybWFuc2UuY29tLz9sPWVuX0VO"
+                data-olink=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="c-nav-bar-cta-icon"
@@ -108,7 +108,7 @@ const Nav = () => {
                   <li className="c-nav-menu-content-li">
                     <span
                       data-obfuscated-link=""
-                      data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL3lvdXItbmVlZHMv"
+                      data-olink=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -121,7 +121,7 @@ const Nav = () => {
                   <li className="c-nav-menu-content-li">
                     <span
                       data-obfuscated-link=""
-                      data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL291ci1wcm9kdWN0cy8="
+                      data-olink=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -134,7 +134,7 @@ const Nav = () => {
                   <li className="c-nav-menu-content-li">
                     <span
                       data-obfuscated-link=""
-                      data-olink="aHR0cHM6Ly93d3cucGVyZm9ybWFuc2UuY29tL2VuL291ci1zZXJ2aWNlcy8="
+                      data-olink=""
                       className="c-nav-menu-content-a"
                     >
                       <span className="c-nav-menu-content-a-text">
@@ -204,7 +204,7 @@ const Nav = () => {
                   <li className="c-nav-menu-content-li">
                     <span
                       data-obfuscated-link=""
-                      data-olink="aHR0cHM6Ly9hcHAucGVyZm9ybWFuc2UuY29tLz9sPWVuX0VOLw=="
+                      data-olink=""
                       target="_blank"
                       className="c-nav-menu-content-a"
                     >

@@ -2043,102 +2043,12 @@ const Home = () => {
               >
                 <div className="c-grid">
                   <div className="col-span-12 md:col-span-4 md:col-start-10 lg:col-span-4 lg:col-start-10 mobile:text-center">
-                    <button
-                      className="c-hero-cta-button"
-                      data-video-modal-trigger="hero"
-                    >
-                      <span className="c-hero-cta-button-bg" />
-                      <span className="c-hero-cta-button-icon">
-                        <span className="c-hero-cta-button-icon-wrap">
-                          <span className="c-hero-cta-button-icon-static">
-                            <svg
-                              className="c-icon-play"
-                              width={12}
-                              height={14}
-                              viewBox="0 0 12 14"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10.6384 6.18406C11.2715 6.5762 11.2692 7.49809 10.634 7.88702L2.2781 13.0039C1.6108 13.4125 0.753902 12.931 0.75588 12.1485L0.781862 1.87266C0.783841 1.0902 1.64317 0.613043 2.30839 1.02504L10.6384 6.18406Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </span>
-                          <span className="c-hero-cta-button-icon-hover">
-                            <svg
-                              className="c-icon-play"
-                              width={12}
-                              height={14}
-                              viewBox="0 0 12 14"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M10.6384 6.18406C11.2715 6.5762 11.2692 7.49809 10.634 7.88702L2.2781 13.0039C1.6108 13.4125 0.753902 12.931 0.75588 12.1485L0.781862 1.87266C0.783841 1.0902 1.64317 0.613043 2.30839 1.02504L10.6384 6.18406Z"
-                                fill="currentColor"
-                              />
-                            </svg>
-                          </span>
-                        </span>
-                      </span>
-                      <span className="c-hero-cta-button-text">
-                        <span className="c-hero-cta-button-text-static">
-                          Watch how we do it
-                        </span>
-                        <span className="c-hero-cta-button-text-hover">
-                          Watch how we do it
-                        </span>
-                      </span>
-                    </button>
+      
                   </div>
                 </div>
               </div>
             </div>
-            <div
-              className="c-video-modal"
-              style={{ opacity: 0, pointerEvents: "none" }}
-              data-video-modal="hero"
-              data-video-id={917421069}
-              data-video-url="https://player.vimeo.com/external/917421069.m3u8?s=8884d116df269bb1a186ce6cf5d878ea34b15a57&oauth2_token_id=1749906544"
-            >
-              <div className="c-video-modal-outer">
-                <div className="c-video-modal-inner">
-                  <div className="c-video is-muted">
-                    <div className="plyr__video-wrapper--fixed-ratio">
-                      <video
-                        id="player-917421069"
-                        controls=""
-                        crossOrigin=""
-                        playsInline=""
-                        poster="https://i.vimeocdn.com/video/1805731249-bfb22ecb4c6e4c980e3193695a2bfbd54b59557750fb0964c23b42d9707a7697-d"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="c-video-modal-header">
-                <div className="wrap">
-                  <div className="c-button--round c-video-modal-close">
-                    <svg
-                      className="c-icon-close"
-                      width={10}
-                      height={10}
-                      viewBox="0 0 10 10"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        clipRule="evenodd"
-                        d="M0.21967 0.21967C0.512563 -0.0732233 0.987437 -0.0732233 1.28033 0.21967L5 3.93934L8.71967 0.21967C9.01256 -0.0732233 9.48744 -0.0732233 9.78033 0.21967C10.0732 0.512563 10.0732 0.987437 9.78033 1.28033L6.06066 5L9.78033 8.71967C10.0732 9.01256 10.0732 9.48744 9.78033 9.78033C9.48744 10.0732 9.01256 10.0732 8.71967 9.78033L5 6.06066L1.28033 9.78033C0.987437 10.0732 0.512563 10.0732 0.21967 9.78033C-0.0732233 9.48744 -0.0732233 9.01256 0.21967 8.71967L3.93934 5L0.21967 1.28033C-0.0732233 0.987437 -0.0732233 0.512563 0.21967 0.21967Z"
-                        fill="#102458"
-                      />
-                    </svg>
-                  </div>
-                </div>
-              </div>
-            </div>
+            
           </div>
 
 
@@ -3806,7 +3716,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                           </svg>
                         </span>
                       </div>
-                    </div>
+                    </div>F
                     <div className="c-card-item-img">
                       <svg
                         width={241}
@@ -5803,7 +5713,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   <div data-animate="" data-animate-delay={400}>
                     <span
                       data-obfuscated-link=""
-                      data-olink="aHR0cHM6Ly90ZXN0LnBlcmZvcm1hbnNlLmNvbS8/bG9jYWxlPWVuLVVT"
+                      data-olink=""
                       className="c-button c-button--ts-2 c-button--icon-hover c-button--outlined"
                     >
                       <span className="c-button-bg">
@@ -7141,7 +7051,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
             <div className="wrap wrap--max">
               <div className="text-center">
                 <h2 className="ts-2--sm" data-animate-title="">
-                  Ready to discover your next talents?
+                Get started with your Blockchain Journey Today
                 </h2>
                 <div
                   className="ts-eyebrow"
@@ -7149,18 +7059,10 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   data-animate-y={50}
                   data-animate-delay={200}
                 >
-                  <p>Complete the form to get a demo with one of our experts</p>
+                  {/* <p>Complete the form to get a demo with one of our experts</p> */}
                 </div>
               </div>
-              {/* <div
-                className="c-hubspot-form"
-                data-animate-form=""
-                id="hbspt_form_0c7dae6d-fc5c-4227-b158-164a00948a5a"
-                data-form-id="0c7dae6d-fc5c-4227-b158-164a00948a5a"
-                data-portal-id={139756868}
-              >
-                <div className="hbspt-form" data-hs-forms-root="true" />
-              </div> */}
+             
             </div>
           </section>
           <div
@@ -7175,20 +7077,7 @@ M569.7,166.3c0,0-26.2-18.6-44.1,10.9c-13.5,22.3-24.5,37.5-44.4,35c-17.8-2.2-25.2
                   <div className="text-center c-modal-title">
                     <p className="ts-3">Footer form</p>
                   </div>
-                  {/* <div className="c-grid">
-                    <div className="col-span-8 col-start-2 md:col-span-12 md:col-start-2">
-                      <div
-                        className="c-hubspot-form"
-                        data-animate-form=""
-                        id="hbspt_form_Request demo EN_modal_form-1-success"
-                        data-form-id="Request demo EN"
-                        data-portal-id={139756868}
-                        data-modal-id="form-1-success"
-                      >
-                        <div className="hbspt-form" data-hs-forms-root="true" />
-                      </div>
-                    </div>
-                  </div> */}
+                
                   <div className="c-modal-success">
                     <div className="c-grid md:items-center">
                       <div className="col-span-8 col-start-2 md:col-span-7 md:col-start-0 lg:col-span-7 lg:col-start-0">
